@@ -1,0 +1,45 @@
+Bower
+a node.js package, package manager for web as it says.
+--install as a node.js package
+npm install -g bower
+--using bower to install packages
+bower install <package>
+bower install <package>#<version>
+bower search <package>
+bower uninstall <package-name>
+
+Node.js
+javascript runtime engine
+https://nodejs.org/en/
+--check installation
+node -v
+
+npm
+it is installed with node.js.
+
+node.js's ecosystem. package manager for javascript
+Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.
+
+--check installation
+npm -v
+
+--upgrade since it's developed as separate project.
+npm install npm@latest -g
+
+Actions:
+0. install git, which I already have git 2.5.1 installed.
+1. download and install node.js. use default settings, that adds binary to path
+2.verify they are installed
+node -v
+nps -v
+3. install bower
+npm install -g bower
+
+4. go to conFusion folder and install practice with bower
+bower install
+(took some time to check bower.json and )
+to understand that this is mainly to install the dependencies:
+augular.js,bootstrap and front-awsome
+
+The installed javascript frameworks, packages are put into bower_components folder.
+
